@@ -35,11 +35,6 @@ const obj={
     name: "yazeed"
 }
     
-    it('should get 200 status', async () => {
-        const response = await request.post('/person',obj);
-        expect(response.status).toBe(200);
-        expect(response.body).toBe('yazeed')
-    });
 
 
 })
